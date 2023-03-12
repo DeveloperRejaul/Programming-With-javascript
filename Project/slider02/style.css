@@ -1,0 +1,48 @@
+
+main{
+	width: 100%;
+	height: 300px;
+	margin: 200px auto;
+	overflow: hidden;
+	position: relative;
+}
+main h1{
+	text-align: center;
+	background-color: aqua;
+}
+span{
+	position: absolute;
+	top: 50%;
+	font-size: 60px;
+	left: 5%;
+	color: purple;
+	z-index: 1;
+	cursor: pointer;
+}
+span:nth-of-type(2) {
+	left: 93%;
+	text-align: right;
+}
+section{
+	height: 300px;
+	background-color: #f4f4f4;
+	margin: 10px auto;
+	display: flex;
+	justify-content: left;
+	overflow-x: auto;
+}
+section::-webkit-scrollbar{
+	visibility: hidden;
+}
+section div{
+	height: 200px;
+	position: relative;
+	left: 0px;
+	text-align: center;
+	background: green;
+	line-height: 200px;
+	transition: 0.5s;
+}
+
+
+

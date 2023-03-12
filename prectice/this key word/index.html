@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This KeyWord</title>
+</head>
+<body>
+
+    <!-- this key word Event je babe kaj kure -->
+    <button onclick="this.style.display='none'">Click to Remove Me!</button>
+    
+    <button onclick="alert(this.tagName.toLowerCase());">
+        Show this
+    </button>
+
+    <button onclick="alert((function() { return this; })());">
+        Show inner this
+    </button>
+      
+
+
+
+    <!-- This key word Object e je babe kaj kure -->
+    <p></p>
+
+
+    
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>

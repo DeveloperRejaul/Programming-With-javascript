@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task js</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="Card">
+        <div class="inner-asrd">
+            <h1>Task List</h1>
+            <p>New Text</p>
+            <form id="taskForm" action="#">
+                <input type="text" name="inpute" id="inpute" placeholder="Add task">
+                <input type="submit" name="button" id="button" value="ADD TASK">
+            </form>
+            <div class="list-item">
+                <div class="inner-list">
+                    <h1>Tasks</h1>
+                    <form action="#">
+                        <input type="text" id="filter" name="filter" placeholder="Filter Tasks">
+                    </form>
+                    <ul id="colaction"></ul>
+                    <button id="clearAll" type="button"> CLEAR TASKS </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>

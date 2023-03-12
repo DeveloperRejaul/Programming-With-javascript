@@ -1,0 +1,108 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clerfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* slider css */
+.thebline-slider{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.thebline-slider .thimline-container{
+	width: 100%;
+	float: left;
+    transition: margin 1s ease;
+}
+.thebline-slider .thimline-container .items{
+	height: 250px;
+	background-color: gray;
+	line-height: 250px;
+	text-align: center;
+	font-size: 50px;
+	color: #ffffff;
+	float: left;
+}
+.control{
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.control ul{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.control ul li{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #c3c3c3;
+    margin: 4px;
+    display: inline-block;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.control ul li.active{
+    background-color: green;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#test {
+	display: flex;
+	width: 98%;
+	height: 140px;
+	overflow-x: auto;
+	justify-content: left;
+}
+#test div {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	background-color: blue;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin: 10px;
+	
+}
+button {
+	height: 20px;
+	width: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

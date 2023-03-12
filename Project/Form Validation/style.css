@@ -1,0 +1,62 @@
+#formSection {
+	background-color: #fffcfc;
+}
+.inner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+#formSection .form-control label,#formSection .form-control input,#formSection .form-control small{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+#formSection form {
+	height: auto;
+	width: 300px;
+	padding: 15px 30px;
+	box-shadow: 0px 1px 6px 1px #69be4a66;
+	border-radius: 25px 5px 25px 5px;
+	background: #69be4a66;
+}
+#formSection h2{
+    text-align: center;
+}
+#formSection .form-control input{
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+#formSection .form-control input:focus{
+    outline: 0;
+    border: 2px solid #fff;
+}
+.form-control small{
+    color: #e74c3c;
+}
+#submit {
+	cursor: pointer;
+	border: 2px solid #087624;
+	color: white;
+	background: #087624;
+	border-radius: 3px;
+	margin-top: 5px;
+	display: block;
+	width: 35%;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.form-control {
+	margin-bottom: 15px;
+}
+#formSection .form-control.success input{
+    border-color: #2ecc71;
+}
+#formSection .form-control.error input{
+    border-color: #e74c3c;
+}
+input {
+	border-radius: 5px;
+}
