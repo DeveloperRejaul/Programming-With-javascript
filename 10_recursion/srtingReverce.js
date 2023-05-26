@@ -28,6 +28,12 @@ const stringR = (str = "") => {
     return str;
   } else {
     return stringR(str.slice(1)) + str[0];
+    // Execution Explain
+    // o = 0
+    // o+l = ol
+    // ol+l =oll
+    // oll+e = olle
+    // olle+h = olleh
   }
 };
 
