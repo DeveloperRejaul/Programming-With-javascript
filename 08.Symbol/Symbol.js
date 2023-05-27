@@ -1,26 +1,16 @@
-const id = Symbol("id");
-const name = Symbol("name");
+var symbol1 = Symbol();
+var symbol2 = Symbol();
 
-const symbolTest = {
-  [name]: "Rejaul",
-  [id]: 1,
-  fnc: function () {
-    console.log(this[id]);
-    console.log(this[name]);
-  },
-};
+//!! js symbol always unique
+console.log(symbol1 === symbol2); // print false
+console.log(symbol1 == symbol2); // print false
 
-// log
-// symbolTest.fnc();
+//!! Symbol argument is symbol description
+const id = Symbol("id"); // id is a symbol description
+const name = Symbol("name"); // name is a symbol description
 
-const obj = {
-  // does not create a new scope
-  i: 10,
-  b: () => console.log(obj.i, this),
-  c() {
-    console.log(this.i, this);
-  },
-};
-
-obj.b(); // prints undefined, Window { /* … */ } (or the global object)
-// obj.c(); // prints 10, Object { /* … */ }
+// How to use Symbol argument for functional // with out description
+// Like this => const id = Symbol.for("hello world")
+const id2 = Symbol.for("hello world");
+console.log(id2);
+console.log(id);
