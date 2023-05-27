@@ -1,0 +1,13 @@
+var map = new Map();
+map.set(0, "hello");
+map.set(1, "hello2");
+map.get(1);
+// console.log(map.size);
+// console.log(map.has(0));
+// console.log(map.values());
+// console.log(map.keys());
+// console.log(map.entries());
+// map.forEach((e, i) => console.log(e, i));
+// console.log(map.delete(0));
+map.clear();
+console.log(map);
